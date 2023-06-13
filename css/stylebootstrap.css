@@ -1,0 +1,222 @@
+body {
+    margin: 0px;
+}
+.color-blue {
+    color: #2947A9 !important;
+}
+.background-blue {
+    background-color:#2947A9 !important;
+    color: white !important;
+}
+.navbar a:hover {
+    color:orange;
+}
+
+.hero {
+    background-image: url(../image/Hero.png);
+    min-height: 35vh;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+.hero-left h1 {
+    font-size: 2rem; 
+}
+.hero-right  {
+    font-size: 0.9rem;
+}
+.hero-right strong {
+    font-size: 0.6rem;
+}
+
+.reput-icons {
+    width: 17rem;
+    height: 10rem;
+}
+.reput-icons p,h6 {
+    font-size: 0.7rem;
+}
+.reput-icons p {
+    color: #858EAD;
+}
+
+.color {
+    width: 15rem;
+}
+.nocolor {
+    box-shadow: 0px 0px 27.0741px -1.46346px rgba(17, 24, 39, 0.05);
+    width: 15rem;
+}
+  .happy {
+    box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+      0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+    width: 15rem; height: 7rem;
+    position: relative;
+  }
+  .handshake {
+    height: 4rem; top:20rem;
+    position: absolute;
+    top:-2rem; left:13rem;
+  }
+  .projects {
+    box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+      0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+    width: 15rem; height: 7rem;
+    position: relative;
+  }
+  .pen {
+    height: 3rem;
+    position: absolute;
+    top:-2rem; left:-1rem;
+  }
+  .awards {
+    box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+      0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+    width: 15rem;  height: 7rem;
+    position: relative;
+  }
+  .trophy {
+    height: 3.5rem;
+    position: absolute;
+    top:-2rem; left:13rem;
+  }
+  .years {
+    box-shadow: 0px 8.78079px 11.7077px -2.92693px rgba(17, 24, 39, 0.1),
+      0px 2.92693px 4.39039px -1.46346px rgba(17, 24, 39, 0.05);
+    width: 15rem; height: 7rem;
+    position: relative;
+  }
+  .pencil {
+    height: 3rem;
+    margin-top: 4rem;
+    position: absolute;
+    top:1.5rem; left:13rem;
+  }
+  .experience-right p {
+    color: #525b7a;
+  }
+  .experience-right a {
+    text-decoration: none;
+  }
+  .consult {
+    background: url(../image/consult.png);
+    min-height: 15vh;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+  }
+  .consult h3 {
+    font-size: 0.7rem;
+  }
+  .consult p {
+    font-size: 0.5rem;
+  }
+  .consult a {
+    background: transparent;
+    font-size: 0.4rem;
+    border: 1px solid white;
+    padding: 1px;
+  }
+  .project-left a {
+    color:#C2C7D6;
+}
+.project-left a:hover {
+    color:#2947A9;
+}
+.us {
+    font-size: 0.75rem;
+}
+.us a {
+    font-size: 0.5rem; 
+}
+.form a {
+    background-color:  #2947A9;
+    text-decoration: none;
+}
+.footer span {
+    color: #2947A9;
+}
+.footertop-right p {
+    color: #2947A9;
+}
+.copyright {
+    background-color: #2947A9;
+    color: white;
+}
+.footer a {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+  }
+@media (min-width:768px) {
+    .hero {
+        min-height: 21.5rem;
+    }
+    .experience {
+        position: relative;
+      }
+      .experience-left {
+        margin-top: 30rem; 
+      }
+      .happy {
+        background-color: #ffffff;
+        z-index: 1;
+        position: absolute;
+        top: 5rem;
+        left: 22.5rem;
+      }
+      .projects {
+        background-color: #ffffff;
+        z-index: -1;
+        position: absolute;
+        top: 8.5rem;
+        left: 8rem;
+      }
+      .awards {
+        background-color: #ffffff;
+        z-index: 2;
+        position: absolute;
+        top: 15rem;
+        left: 22.5rem;
+      }
+      .years {
+        background-color: #ffffff;
+        position: absolute;
+        top: 19.5rem;
+        left: 9.5rem;
+      }
+      .consult-left h3 {
+        font-size: 1.7rem;
+    }
+    .consult-left p {
+        font-size: 1rem;
+    }
+    .consult-right a {
+        font-size: 0.85rem;
+    }
+}
+
+@media (min-width:992px) {
+    h1 {
+        font-size: 4.5rem !important;
+    }
+    .hero {
+        background-size: cover ;
+        min-height: 28rem;
+    }
+    .experience-right {
+        width: 25%;
+    }
+    .us-image {
+        position: relative;
+        width: 100%;
+    }
+    .us {
+        width:20rem;
+        position: absolute;
+        /* size: ; */
+        left: 40rem;
+        font-size: 1rem;
+    }
+}
+
+
+
